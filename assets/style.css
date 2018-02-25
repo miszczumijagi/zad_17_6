@@ -1,0 +1,26 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: grey;
+    color: white;
+}
+
+.login-button {
+	text-decoration: none;
+    width: 100px;
+    margin: 30px 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 1px 2px;
+    background-color: white;
+    border-radius: 5px;
+}
+
